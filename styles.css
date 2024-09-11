@@ -11,7 +11,7 @@ body {
 header {
     background: linear-gradient(90deg, #011a35, #044b9c);
     color: white;
-    padding: 20px 30px; /* Increase padding to create more space around the content */
+    padding: 20px 30px; 
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -21,14 +21,14 @@ header {
     z-index: 1000;
     transition: top 0.3s ease-in-out;
     display: flex;
-    justify-content: space-between; /* Aligns items to the edges */
-    align-items: center; /* Centers items vertically */
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 /* Logo Section */
 header .logo {
     flex: 1;
-    padding-right: 20px; /* Adds space to the right of the logo */
+    padding-right: 20px; 
 }
 
 /* Navigation Section */
@@ -41,12 +41,12 @@ header nav {
 
 /* User Info Section */
 header .user-info {
-    text-align: right; /* Aligns text to the right */
-    margin-left: auto; /* Pushes user-info to the far right */
+    text-align: right; 
+    margin-left: auto; 
 }
 
 .header-hidden {
-    top: -100px; /* Adjust this value based on the height of your header */
+    top: -100px; 
 }
 
 header a {
@@ -74,23 +74,23 @@ section {
     border: 1px solid #ddd;
     width: 30%;
     text-align: center;
-    border-radius: 8px; /* Rounded corners for a modern look */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     font-family: 'Rubik', sans-serif;
 }
 
 .product-item:hover {
-    transform: translateY(-5px); /* Lift effect on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
-/* Product Images - 4:4 Aspect Ratio */
+
 .product-item img {
-    width: 100%;  /* Makes the image take the full width of its container */
-    height: 350px; /* Sets a fixed height to maintain a 1:1 (square) aspect ratio */
-    object-fit: cover; /* Ensures the image is scaled properly */
-    border-radius: 10px; /* Optional: Adds rounded corners for a modern look */
+    width: 100%;  
+    height: 350px; 
+    object-fit: cover; 
+    border-radius: 10px; 
 }
 
 
@@ -164,7 +164,7 @@ button, a {
 
 button:hover, a:hover {
     background-color: #0056b3;
-    transform: translateY(-2px); /* Slight lift effect on hover */
+    transform: translateY(-2px); 
 }
 
 /* Form Styles */
@@ -215,7 +215,7 @@ ul li {
     border-radius: 8px;
     font-size: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: none; /* Hide by default */
+    display: none; 
 }
 
 .message.success {
@@ -238,28 +238,28 @@ footer {
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    position: relative; /* Remove fixed positioning */
+    position: relative; 
     bottom: 0;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 20px; /* Adds space between content and footer */
+    margin-top: 20px; 
 }
 
 .footer-social a {
-    background-color: transparent; /* Remove button background */
-    padding: 0; /* Remove any padding */
+    background-color: transparent; 
+    padding: 0; 
     display: inline-block;
 }
 
 .footer-social a img {
-    background-color: transparent; /* Ensure no background color on the image */
+    background-color: transparent; 
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    transition: transform 0.3s ease; /* Add hover effect */
+    transition: transform 0.3s ease; 
 }
 
 .footer-social a img:hover {
-    transform: scale(1.1); /* Enlarge slightly on hover */
+    transform: scale(1.1); 
 }
 /* Checkout Section */
 .checkout-section {
@@ -315,16 +315,16 @@ table th {
 /* Slideshow container */
 .slideshow-container {
     position: relative;
-    max-width: 100%; /* Full width */
+    max-width: 100%; 
     margin: auto;
     margin-top: 20px;
-    text-align: center; /* Center the content */
+    text-align: center; 
 }
 
 /* Resize the slideshow images */
 .slideshow-container img {
-    width: 500px; /* Set the width of the ad images */
-    height: auto; /* Keep the aspect ratio */
+    width: 500px; 
+    height: auto; 
 }
 
 /* Hide all slides by default */
