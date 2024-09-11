@@ -1,0 +1,9 @@
+INSERT INTO products (name, description, price, image) VALUES
+('Hot Toys Action Figure, Muticoloured, 1:6', '1.Newest design:This blaster is the latest design models for 2022.The unique design of the lower supply clip makes the whole blaster look more realistic and beautiful.Also you can get a better view.Batman
+Licensed Collectable
+TV & Movie Cars
+TV & Movie', 18.99, 'images/bat.jpg'),
+('Electronic Iron-man Helmet', 'Mark42 Wearable Helmet LED Light Up Iron-man mask Iron-man Super Hero Model 1:1 Helmet Cosplay Props Replica Christmas, Halloween', 15.55, 'images/ironman.jpg'),
+('Star Wars 2 in 1 Telescopic Retractable Folding Laser Sword LED Lighted Toy Light Sword with Sound Effect Best Gift for Christmas, Halloween and Birthday', 'Super Hero Launcher Gloves Wrist Toy is a durable and flexible wrist accessory for cosplay with a movie-accurate design based on Spider-boy movies. It comes with a built-in rechargeable battery and motor, along with an adjustable size and has a launch effective distance of 8ft.1. Two-in-one LED light sword: 2 retractable light sables (length from 16.9 x 32.6 inches), with easy to grip handle, two lightsabes can be connected via a connector to form a longer light sword.
+2. High-quality materials: make boys, girls and adults have endless fun. The light sword is made of high-quality plastic. It is durable, safe for children, easy to use and non-toxic. Suitable for children over 3 years old.
+3. Bright LED Lights and Sound Effects: This toy lightsword has bright luminous LED lights that glow in the dark and illuminate the area. It comes in 7 bright colors, 6 changeable and flashing modes and sound effect adapting to the fight will be produced during the battle. Bring the double-ended sword and show off your battle skills in a light show with your friends.', 13.00, 'images/sword.jpg');
