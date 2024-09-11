@@ -14,13 +14,13 @@ session_start();
         .popup-ad {
             position: fixed;
             right: 50px;
-            bottom: 500px; /* Adjust this value to position it from the bottom */
-            width: 250px; /* Width of the ad */
+            bottom: 500px; 
+            width: 250px; 
             background-color: #f9f9f9;
             box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
             padding: 15px;
-            z-index: 1000; /* Ensure it appears on top */
-            display: none; /* Initially hidden */
+            z-index: 1000; 
+            display: none; 
         }
 
         .popup-ad img {
@@ -112,16 +112,16 @@ session_start();
 
     <!-- JavaScript for Pop-up Ad -->
     <script>
-        // Display the pop-up ad after a delay
+        
         setTimeout(function() {
             document.getElementById('popupAd').style.display = 'block';
-        }, 1000); // 3-second delay
+        }, 1000); 
 
         // Close the pop-up ad when the close button is clicked
         document.getElementById('closeAd').onclick = function() {
             document.getElementById('popupAd').style.display = 'none';
         };
-
+//JavaScript for hidden header
         let lastScrollTop = 0;
         const header = document.querySelector('header');
 
